@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Title from './../components/Title/index';
+import Title from '../components/Title/index';
 
 const filmes = [{
     "nome": "Vingadores",

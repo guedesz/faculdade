@@ -1,5 +1,5 @@
 import "./card.css";
-import Comments from './../Comments/index';
+import Comments from '../Comments/index';
 
 const filmes = [{
   "nome": "Vingadores",
