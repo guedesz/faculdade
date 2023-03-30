@@ -50,10 +50,10 @@ function FilmeExist(nomeFilme) {
 
 function Assistido({ javisto }) {
     if (javisto) {
-      return <p>✔</p>;
+      return "✔";
     }
 
-    return <span className="item">Não assistido</span>;
+    return "Não assistido";
 }
 
 function Detalhes() {
@@ -90,7 +90,7 @@ function Detalhes() {
                                 <p className='lead'> <span className='fw-semibold'>Gênero: </span> {desc.genero}</p>
                                 <p className='lead'> <span className='fw-semibold'>Sinopse: </span> {desc.descricao}</p>
                                 <p className='lead'> <span className='fw-semibold'>Pontuação: </span>{desc.nota} </p>
-                                <p className='lead'> <span className='fw-semibold'>Assistido: </span><Assistido javisto={desc.assistido} /></p>
+                                <p className='lead'> <span className='fw-semibold'>Assistido: </span> <Assistido javisto={desc.assistido} /></p>
                             </div>
                         </div>
                     </div>
